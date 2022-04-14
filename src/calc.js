@@ -50,7 +50,7 @@ async function calculator(interaction, options = []) {
 		if (options.credit === false) {
 			foot = options.embedFoot || 'Calculator'
 		} else {
-			foot = '©️ Simply Develop. npm i simply-djs'
+			foot = 'Made by Kian'
 		}
 
 		for (let i = 0; i < text.length; i++) {
